@@ -1,14 +1,15 @@
 /////////////Variables/////////////
 //1. Write a variable called color with a value of "dark blue".
+var color = "dark blue"
 
 //2. Write a variable, myFave, that has the value "My favorite color is "
-
+var myFave = "My favorite color is "
 //3. Use the variables from 1 and 2 to make myFavoriteColor equal
 //   "My favorite color is dark blue" (concatenate)
-var myFavoriteColor;
+var myFavoriteColor = myFave + color;
 
 //4. Create an array of strings that includes the letters a - d in order.
-var aThroughD;
+var aThroughD = ["a", "b", "c", "d"];
 //5. Remove 'a' and store it to a variable called isForApple.
 
 //6. Add 'e' to the end of aThroughD.
