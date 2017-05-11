@@ -90,13 +90,13 @@ return d
 //    object's name property, and if the object's name
 //    is undefined, return 'has amnesia'.
 function whoAmI(obj) {
-   for (var key in obj) {
-      if (obj[key] === undefined) {
+   
+      if (!obj.name) {
         return 'has amnesia';
       } else {  
-        return obj[key];
+        return obj.name;
       }
-    } 
+    
   
 }
 
